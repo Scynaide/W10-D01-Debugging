@@ -8,7 +8,7 @@ public class ExceptionDebugging {
         int num2 = 0;
 
         try {
-            int result = num1 / num2;  // This will cause an ArithmeticException
+            int result = num1 / num2;  // ArithmeticException
             System.out.println("Result: " + result);
         } catch (ArithmeticException e) {
             System.out.println("ArithmeticException occurred: " + e.getMessage());
