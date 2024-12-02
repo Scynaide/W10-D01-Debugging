@@ -8,7 +8,7 @@ public class LoopBug {
         int result;
 
         for (int i = 0; i <= numbers.length; i++) {
-            try { // checking for an error
+            try {
                 result = numerator / numbers[i];
             } catch (ArithmeticException e) {
                 break;
